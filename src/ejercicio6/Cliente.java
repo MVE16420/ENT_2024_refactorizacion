@@ -1,44 +1,46 @@
 package ejercicio6;
 
-public class Cliente { 
+public class Cliente {
 
-    private String nombre; 
-    private String apellido; 
-    private Direccion direccion; 
-    
-    // Getters y setters 
-    /**
-     * 
-     * @param nombre
-     */
-    public void setNombre(String nombre) { 
+	 
 
-        this.nombre = nombre; 
-    } 
+    private String nombre;
 
-    /**
-     * 
-     * @param apellido
-     */
-    public void setApellido(String apellido) { 
+    private String apellido;
 
-        this.apellido = apellido; 
-    } 
+    private direccion direccion;
 
-    /**
-     * 
-     * @param direccion
-     */
-    public void setDireccion(String direccion) { 
+ 
 
-        this.direccion = direccion; 
+    // Getters y setters
+
+ 
+
+    public void setNombre(String nombre) {
+
+        this.nombre = nombre;
+
     }
 
+ 
 
-    /**
-     * 
-     * @param ciudad
-     */
-  
+    public void setApellido(String apellido) {
 
+        this.apellido = apellido;
+
+    }
+
+ 
+
+    public void setDireccion(direccion direccion) {
+
+        this.direccion = direccion;
+
+    }
+
+ 
+
+ 
+
+}
 } 
