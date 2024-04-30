@@ -16,7 +16,7 @@ public static final int IMPUESTO_IEPS=1002;
 		if (tipoImpuesto == IMPUESTO_IVA) {
 
 			impuesto = CalcularIva(ingresos);
-
+			
 		} else if (tipoImpuesto == IMPUESTO_ISR) {
 			impuesto = CalcularIsr(ingresos);
 		} else if (tipoImpuesto == IMPUESTO_IEPS) {
